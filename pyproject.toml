@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SlotSettleGate"
+version = "1.0.0"
+description = "Time-boxed autonomous settlement authorization gate"
+readme = "README.md"
+authors = [{ name = "Jung Wook Yang", email = "sadpig70@gmail.com" }]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+SlotSettleGate = "SlotSettleGate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["SlotSettleGate*"]
