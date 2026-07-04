@@ -1,3 +1,5 @@
+![SlotSettleGate](assets/SlotSettleGate_hero.png)
+
 # SlotSettleGate
 
 > Does a time-boxed autonomous settlement run have valid slot authorization, pass settlement compliance rules, and remain within veto-escrow interrupt bounds?
